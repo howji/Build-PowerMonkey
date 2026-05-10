@@ -56,5 +56,5 @@ set PATH=%cd%\python;%PATH%
 set NASM_PREFIX=%cd%\nasm\
 cd edk2
 python -m pip install -r pip-requirements.txt
-edksetup.bat Rebuild
+call edksetup.bat Rebuild
 cd ..
